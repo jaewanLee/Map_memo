@@ -1,0 +1,117 @@
+{
+  "project_info": {
+    "project_number": "874361028200",
+    "firebase_url": "https://sunny-truth-151708.firebaseio.com",
+    "project_id": "sunny-truth-151708",
+    "storage_bucket": "sunny-truth-151708.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874361028200:android:26fe1e82b5b8f910",
+        "android_client_info": {
+          "package_name": "jaewanlee.android_project.com.multiandroidchat"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874361028200-0heqm6itef393b1tlf14u3pu0genvkum.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtLlx7qvQ-efxn3ko2O7U4hFA5TbOVJ2k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874361028200:android:f3be514f3dc25a5d",
+        "android_client_info": {
+          "package_name": "jaewanlee.android_project.com.myapplication"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874361028200-0heqm6itef393b1tlf14u3pu0genvkum.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtLlx7qvQ-efxn3ko2O7U4hFA5TbOVJ2k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:874361028200:android:b9f9473e51cc5c02",
+        "android_client_info": {
+          "package_name": "jaewanlee.android_project.com.map_memo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "874361028200-s5nssmcjj50f80gkcj4qpkoo6a4n57ma.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "jaewanlee.android_project.com.map_memo",
+            "certificate_hash": "4143585A0AD3FBE4D35568D6E2CD36427006A290"
+          }
+        },
+        {
+          "client_id": "874361028200-0heqm6itef393b1tlf14u3pu0genvkum.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBtLlx7qvQ-efxn3ko2O7U4hFA5TbOVJ2k"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "874361028200-0heqm6itef393b1tlf14u3pu0genvkum.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
