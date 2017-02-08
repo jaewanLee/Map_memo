@@ -37,6 +37,7 @@
                 android:background="@drawable/round_edit_text"
                 android:paddingLeft="5dp"
                 android:id="@+id/map_search_autoComplete"
+                android:completionThreshold="2"
                 />
             <ImageButton
 

@@ -22,7 +22,8 @@
             android:value="AIzaSyA129i52EuRRpOnoypHnsEexWbE0IFhKgc"/>
 
         <activity android:name=".MainActivity"
-            android:windowSoftInputMode="adjustPan">
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
                 <category android:name="android.intent.category.LAUNCHER" />
@@ -30,27 +31,54 @@
 
         </activity>
 
-        <activity android:name=".SignUp"/>
-        <activity android:name=".Find"/>
+        <activity android:name=".SignUp"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Find"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait"/>
         <activity android:name="com.facebook.FacebookActivity"
             android:configChanges=
                 "keyboard|keyboardHidden|screenLayout|screenSize|orientation"
             android:theme="@android:style/Theme.Translucent.NoTitleBar"
-            android:label="@string/app_name" />
-        <activity android:name=".Home"/>
-        <activity android:name=".test"/>
-        <activity android:name=".MapMain"/>
+            android:label="@string/app_name"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Home"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".test"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".MapMain"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait"/>
         <activity android:name=".Direct_input"
-            android:windowSoftInputMode="adjustPan"/>
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait"/>
         <activity android:name=".HomePopUp" android:theme="@android:style/Theme.DeviceDefault.Light.Dialog"/>
-        <activity android:name=".Category_view"/>
-        <activity android:name=".Chat_main"/>
-        <activity android:name=".Chat_add"/>
-        <activity android:name=".Chat_room"/>
-        <activity android:name=".Chat_input"/>
-        <activity android:name=".Chat_map"/>
-        <activity android:name=".Setting"/>
-        <activity android:name=".Password_Change"/>
+        <activity android:name=".Category_view"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Chat_main"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan"
+            />
+        <activity android:name=".Chat_add"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait"
+            />
+        <activity android:name=".Chat_room"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Chat_input"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Chat_map"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Setting"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait"/>
+        <activity android:name=".Password_Change"
+            android:windowSoftInputMode="adjustPan"
+            android:screenOrientation="portrait"/>
         <service
             android:name=".FirebaseMessagingService">
             <intent-filter>
@@ -64,6 +92,4 @@
     </service>
         <service android:name=".Friend_service"/>
     </application>
-
-
 </manifest>
