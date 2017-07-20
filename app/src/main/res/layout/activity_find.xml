@@ -7,21 +7,31 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="#ffec9c">
-        <TextView
-            android:layout_width="match_parent"
+        android:layout_weight="0.7"
+        android:background="#ec6161"
+        android:orientation="horizontal"
+        android:padding="7dp">
+        <Space
+            android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:text="#여기요"
+            android:layout_weight="1.5"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/main_title_low"
             android:gravity="center"
-            android:textSize="25dp"
             android:id="@+id/find_title_textView"/>
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"/>
     </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.7"
-        android:background="#16a085">
+        android:background="#e1e1e1">
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
@@ -60,6 +70,10 @@
             android:gravity="center_vertical"
             android:textSize="25dp"
             android:id="@+id/find_name_EditText"/>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -107,6 +121,10 @@
                 android:inputType="number"
                 android:id="@+id/find_phone3_EditText"/>
         </LinearLayout>
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"/>
         <LinearLayout
             android:layout_width="match_parent"
             android:layout_height="0dp"
@@ -119,9 +137,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="28dp"
                 android:layout_weight="1.9"
-                android:background="@drawable/round_button"
-                android:text="FIND"
-                android:textSize="25dp"
+                android:background="@drawable/button_find_low"
                 android:id="@+id/find_find_button"/>
 
             <Button
@@ -129,9 +145,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="10dp"
                 android:layout_weight="1.9"
-                android:background="@drawable/round_button"
-                android:text="CANCEL"
-                android:textSize="25dp"
+                android:background="@drawable/button_cancle_low"
                 android:id="@+id/find_cancel_button"/>
 
         </LinearLayout>

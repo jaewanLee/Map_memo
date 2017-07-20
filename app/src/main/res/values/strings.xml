@@ -1,4 +1,6 @@
 <resources>
     <string name="app_name">Map_memo</string>
     <string name="facebook_app_id">1139394292848076</string>
+    <string name="Airbirdge_App_Name">MapMemo</string>
+    <string name="Airbridge_App_Token"></string>
 </resources>

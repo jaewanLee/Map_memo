@@ -12,7 +12,7 @@
             android:layout_weight="1.5"
             android:src="@drawable/test2"
             android:scaleType="fitXY"
-            android:padding="4dp"
+            android:padding="17dp"
             android:id="@+id/chatList_image_imageView"
             />
         <LinearLayout
@@ -23,6 +23,10 @@
             android:paddingLeft="6dp"
             android:paddingTop="4dp"
             android:paddingBottom="4dp">
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"/>
             <TextView
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
@@ -36,7 +40,7 @@
             <Space
                 android:layout_width="match_parent"
                 android:layout_height="0dp"
-                android:layout_weight="0.2"/>
+                android:layout_weight="0.1"/>
 
             <TextView
                 android:layout_width="match_parent"
@@ -47,6 +51,11 @@
                 android:ellipsize="end"
                 android:id="@+id/chatList_text_textView"
                 />
+
+            <Space
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="0.5"/>
         </LinearLayout>
 
 

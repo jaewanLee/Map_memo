@@ -7,16 +7,25 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="#000000">
-        <TextView
-            android:layout_width="match_parent"
+        android:layout_weight="0.7"
+        android:background="#ec6161"
+        android:padding="7dp">
+        <Space
+            android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:text="#여기요"
-            android:textColor="#ffffff"
+            android:layout_weight="1.5"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@drawable/main_title_low"
             android:gravity="center"
             android:textSize="25dp"
             android:id="@+id/signUp_title_textView"/>
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"/>
         </LinearLayout>
     <LinearLayout
         android:layout_width="match_parent"
@@ -36,9 +45,9 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="10.5"
+        android:layout_weight="10.7"
         android:orientation="vertical"
-        android:background="#f5f5f5"
+        android:background="#ffffff"
         android:weightSum="12">
         <TextView
             android:layout_width="match_parent"
@@ -211,9 +220,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="28dp"
                 android:layout_weight="1.9"
-                android:background="@drawable/round_button"
-                android:text="SAVE"
-                android:textSize="25dp"
+                android:background="@drawable/button_save_low"
                 android:id="@+id/signUp_save_button"/>
 
             <Button
@@ -221,9 +228,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginLeft="10dp"
                 android:layout_weight="1.9"
-                android:background="@drawable/round_button"
-                android:text="CANCEL"
-                android:textSize="25dp"
+                android:background="@drawable/button_cancle_low"
                 android:id="@+id/signUp_cancel_button"/>
 
         </LinearLayout>

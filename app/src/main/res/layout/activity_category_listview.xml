@@ -7,9 +7,11 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.8"
-        android:background="#c2c1c1"
+        android:background="#ffffff"
         android:paddingLeft="10dp"
         android:paddingRight="10dp"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
         ><TextView
         android:layout_width="0dp"
             android:layout_height="match_parent"

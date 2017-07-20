@@ -2,12 +2,12 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:weightSum="10">
+    android:weightSum="12">
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
-        android:background="#000000"
+        android:background="#ec6161"
         android:weightSum="5">
         <Button
             android:layout_width="0dp"
@@ -16,9 +16,9 @@
             android:text="대화상대 초대"
             android:gravity="center_vertical"
             android:textColor="#ffffff"
-            android:layout_marginLeft="10dp"
+            android:layout_marginLeft="20dp"
             android:textSize="15dp"
-            android:background="#000000"
+            android:background="#00000000"
             android:id="@+id/chatAdd_back_Button"/>
         <Space
             android:layout_width="0dp"
@@ -28,9 +28,7 @@
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="1"
-            android:background="#000000"
-            android:text="V 확인"
-            android:textColor="#ffffff"
+            android:background="@drawable/chat_confirm_low"
             android:id="@+id/chatAdd_ok_Button"/>
     </LinearLayout>
     <!--<LinearLayout-->
@@ -85,30 +83,33 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.5"
-        android:background="#e1e1e1">
-        <TextView
-            android:layout_width="match_parent"
+        android:layout_weight="0.8"
+        android:layout_margin="10dp"
+        android:background="@drawable/round_edit_text">
+        <Space
+            android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:text="친구"
-            android:gravity="center_vertical"
-            android:layout_marginLeft="10dp"
-            android:textSize="20dp"
-            android:id="@+id/chatAdd_subtitlefriend_textView"/>
+            android:layout_weight="0.3"/>
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:scaleType="fitXY"
+            android:background="@drawable/icon_search_low"
+            android:layout_weight="1"/>
+        <EditText
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="15"
+            android:textSize="10dp"
+            android:hint="친구의 아이디를 , 로 구분하여 입력하세요"
+            android:id="@+id/chatAdd_friend_editText"/>
+
     </LinearLayout>
-    <EditText
-        android:layout_margin="5dp"
-        android:layout_width="match_parent"
-        android:layout_height="0dp"
-        android:layout_weight="1"
-        android:paddingLeft="7dp"
-        android:hint="친구의 아이디를 , 로 구분하여 입력하세요"
-        android:id="@+id/chatAdd_friend_editText"
-        android:background="@drawable/round_edit_text"/>
     <ListView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="7.5"
+        android:layout_weight="10.2"
         android:id="@+id/chatAdd_friend_listView"></ListView>
 
 

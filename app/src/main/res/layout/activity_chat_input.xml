@@ -7,17 +7,25 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1"
-        android:background="#000000"
-        android:weightSum="3">
-        <TextView
-            android:layout_width="match_parent"
+        android:layout_weight="0.7"
+        android:background="#ec6a6a"
+        android:padding="7dp">
+        <Space
+            android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:text="#여기요"
-            android:textColor="#ffffff"
+            android:layout_weight="1.5"/>
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"
+            android:background="@drawable/title_using_low"
+            android:textColor="#00000000"
             android:gravity="center"
-            android:textSize="30dp"
             android:id="@+id/chatinput_title_textView" />
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1.5"/>
     </LinearLayout>
 
     <LinearLayout
@@ -30,8 +38,8 @@
             android:layout_height="match_parent"
             android:text="메모"
             android:gravity="center_vertical"
-            android:layout_marginLeft="10dp"
-            android:textSize="20dp"
+            android:layout_marginLeft="20dp"
+            android:textSize="15dp"
             android:id="@+id/chatinput_subtitle_textView"/>
     </LinearLayout>
 
@@ -44,6 +52,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:orientation="vertical"
+            android:background="#ffffff"
             android:weightSum="9">
             <LinearLayout
                 android:layout_width="match_parent"
@@ -247,22 +256,25 @@
                     android:orientation="horizontal"
                     android:paddingLeft="25dp"
                     android:paddingRight="25dp"
-                    android:paddingTop="5dp"
-                    android:weightSum="2">
+                    android:paddingTop="5dp">
                     <TextView
                         android:layout_width="0dp"
-                        android:layout_weight="1"
+                        android:layout_weight="1.5"
                         android:layout_height="match_parent"
                         android:id="@+id/chatinput_image_addr_TextView"
                         android:text="이미지 없음"
                         android:gravity="center_vertical"></TextView>
+                    <Space
+                        android:layout_width="0dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="0.3"/>
                     <Button
                         android:layout_width="0dp"
                         android:layout_height="match_parent"
                         android:layout_weight="1"
-                        android:background="@drawable/round_button"
+                        android:background="@drawable/button_image_add_low"
                         android:id="@+id/chatinput_imageAdd_Button"
-                        android:text="이미지 추가"
+
                         />
                 </LinearLayout>
             </LinearLayout>
@@ -306,83 +318,86 @@
         </LinearLayout>
 
     </ScrollView>
-
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.2"
+        android:background="#ffffff"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="1">
+        android:layout_weight="1"
+        android:background="#ffffff">
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"/>
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
-            android:text="SAVE"
+            android:layout_weight="1.5"
+            android:background="@drawable/button_save_low"
             android:id="@+id/chatinput_save_Button"
             />
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.1"/>
         <Button
             android:layout_width="0dp"
             android:layout_height="match_parent"
-            android:layout_weight="1"
+            android:layout_weight="1.5"
             android:id="@+id/chatinput_cancel_Button"
-            android:text="Cancel"/>
+            android:background="@drawable/button_cancle_low"/>
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.2"/>
     </LinearLayout>
+    <Space
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.1"
+        android:background="#ffffff"/>
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="1"
         android:weightSum="10"
-        android:paddingLeft="4dp"
-        android:paddingRight="4dp"
-        android:paddingTop="4dp"
-        android:paddingBottom="4dp"
-        android:background="#000000">
+        android:background="#00000000">
         <ImageButton
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="2.5"
-            android:paddingTop="3dp"
-            android:paddingBottom="3dp"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
-            android:src="@drawable/location"
+            android:src="@drawable/map_on_click_low"
             android:scaleType="fitXY"
-            android:background="#000000"
+            android:background="#00000000"
             android:id="@+id/chatinput_map_ImageButton"/>
         <ImageButton
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="2.5"
-            android:paddingTop="3dp"
-            android:paddingBottom="3dp"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"            android:src="@drawable/list"
+            android:src="@drawable/list_off_click_low"
             android:scaleType="fitXY"
-            android:background="#000000"
+            android:background="#00000000"
             android:id="@+id/chatinput_list_Imagebutton"
             />
         <ImageButton
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="2.5"
-            android:src="@drawable/chat"
+            android:src="@drawable/message_off_click_low"
             android:scaleType="fitXY"
-            android:paddingTop="3dp"
-            android:paddingBottom="3dp"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
-            android:background="#000000"
+            android:background="#00000000"
             android:id="@+id/chatinput_chat_Imagebutton"
             />
         <ImageButton
             android:layout_width="0dp"
             android:layout_height="match_parent"
             android:layout_weight="2.5"
-            android:src="@drawable/setting"
+            android:src="@drawable/setting_off_click_low"
             android:scaleType="fitXY"
-            android:paddingTop="3dp"
-            android:paddingBottom="3dp"
-            android:paddingLeft="20dp"
-            android:paddingRight="20dp"
-            android:background="#000000"
+            android:background="#00000000"
             android:id="@+id/chatinput_setting_Imagebutton"
             />
 
